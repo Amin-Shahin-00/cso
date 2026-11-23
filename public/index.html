@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PSUT Community Service Office</title>
+  <meta name="description" content="Volunteering activities, CSO credits and loyalty card of the PSUT Community Service Office.">
+  <meta name="theme-color" content="#2F4F5E">
+  <link rel="icon" href="/brand/mark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="brand" href="#/" aria-label="PSUT Community Service Office, home">
+        <img src="/brand/mark" alt="" class="brand-mark" width="52" height="52">
+        <span class="brand-text"><span class="l1">PSUT Community</span><span class="l2">Service Office</span></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/" data-nav="home">Events</a>
+        <a href="#/card" data-nav="card">My card</a>
+        <a href="#/teams" data-nav="teams">Teams</a>
+        <a href="#/archive" data-nav="archive">Past events</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="view" class="wrap" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <span class="footer-brand"><img src="/brand/mark" alt="" width="28" height="28">PSUT Community Service Office</span>
+      <span class="footer-links"><a href="#/">Events</a><a href="#/card">My card</a><a href="/admin">Admin</a></span>
+    </div>
+  </footer>
+
+  <dialog id="event-dialog" class="drawer" aria-labelledby="dlg-title">
+    <div class="drawer-inner" id="dlg-body"></div>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>

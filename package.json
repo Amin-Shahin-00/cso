@@ -1,0 +1,16 @@
+{
+  "name": "cso-psut",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CSO PSUT: event registration, loyalty card, CSO credits and selected teams.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "demo": "node seed.js && node server.js",
+    "test": "node --test \"test/*.test.js\""
+  }
+}
